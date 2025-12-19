@@ -1,13 +1,15 @@
 {
   "name": "eduai-master---trợ-lý-ôn-tập-thông-minh",
+  "homepage": "https://QuaTang382.github.io/learn",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
